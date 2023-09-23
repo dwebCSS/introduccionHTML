@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="No más de 165 caracteres">
+    <!-- <meta http-equiv="refresh" content="0; url=http://127.0.0.1:5500/index.html"> -->
+    <title>Mi primera página</title>
+    
+    <!-- <link rel="stylesheet" href="estilos.css"> -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <style>
+        body {
+            background-color: aliceblue;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- hola mundo -->
+    <!-- <p style="color: red;">Esto es un ejemplo</p> -->
+    <!-- <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+    <ul>
+        <li><a href="http://">a</a></li>
+        <li><a href="http://">b</a></li>
+        <li><a href="http://">c</a></li>
+        <li><a href="http://">d</a></li>
+        <li><a href="http://">e</a></li>
+    </ul> -->
+    <h2>Elemento p (parrafos)</h2>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint laborum sequi sunt dolor perspiciatis quia in nulla porro adipisci iusto magni pariatur itaque dolorum, optio assumenda delectus nam soluta? Sint.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam soluta libero adipisci praesentium blanditiis facere placeat aliquid est inventore suscipit cumque enim iusto mollitia quas corrupti quos, non recusandae nostrum.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, iure provident. Animi minima quas ipsa tempore, architecto laborum! Voluptatibus dolorum eaque porro dolore corrupti iste nostrum mollitia doloribus doloremque illum?</p>
+
+    <hr>
+    <h2>Elmentos h1, h2, h3, h4, h5, h6 (Encabezados)</h2>
+
+    <h1>Encabezado 1</h1><!-- Solo debería de existir uno por documento -->
+    <h2>Encabezado 2</h2>
+    <h3>Encabezado 3</h3>
+    <h4>Encabezado 4</h4>
+    <h5>Encabezado 5</h5>
+    <h6>Encabezado 6</h6>
+
+    <!-- <h1>Encabezado 7</h1> Esto estaría incorrecto por el SEO -->
+
+    <!-- <br> Etiqueta de salto de línea -->
+    <!-- <hr> Etiqueta para dar un salto de contenido (agrega una línea) -->
+    <hr>
+    <h2>Etiquetas para texto</h2>
+
+    <p>
+        <b>negrita</b>
+        <i>itálica</i>
+        <u>subrayado</u>
+        <s>tachado</s>
+        x<sup>2</sup>
+        H<sub>2</sub>O
+        <mark>marcador de texto</mark>
+        <small>pequeño</small>
+        <big>grande</big>
+    </p>
+
+    <hr>
+    <h2>Etiquetas para texto "Semánticas"</h2>
+
+    <strong>negrita</strong>,
+    <em>itálica</em>,
+    <strike>tachado</strike>,
+    <del>tachado</del>
+
+    <!-- <h3>Lista de útiles</h3> -->
+
+    <!-- <ul>
+        <li>
+            <b>lápiz</b>
+        </li>
+    </ul> -->
+
+    <!-- <h1>Mercurio</h1> -->
+    <!-- <p><strong>Mercurio es el planeta del sistema solar más cercano al Sol y el más pequeño.</strong> Forma parte de los denominados planetas interiores y carece de satélites</p> -->
+
+    <hr>
+    <h2>Etiquetas para citar</h2>
+
+    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi provident distinctio laudantium necessitatibus explicabo beatae error quaerat officiis dignissimos quod ea aut consequuntur ut doloribus, accusamus in ullam obcaecati tenetur!</blockquote>
+    <cite>- Autor</cite>
+    <!-- <i>- Autor</i> -->
+    <!-- <em>- Autor</em> -->
+
+    <hr>
+    <h2>Etiquetas pre: Texto preformateado</h2>
+
+    <pre>
+        todo:
+            * tarea1
+            * tarea2
+    </pre>
+
+    <code>
+        for (let i = start; i<= end; i++) { <br>
+            &nbsp;&nbsp;&nbsp; array.push(i)<br>
+        }
+    </code>
+
+    <pre>
+        <code>
+            for (let i = start; i<= end; i++) {
+                array.push(i)
+            }
+        </code>
+    </pre>
+
+    <hr>
+    <h2>Elementos en bloque o elementos en línea</h2>
+
+    <p>
+        Los elementos en HTML usualmente son elementos "en bloque" o elementos "en línea"
+    </p>
+
+    <h3>En bloque</h3>
+
+    <p>
+        Un elemento en bloque ocupa todo el espacio de su elemento padre (contenedor), creando así un "bloque".
+    </p>
+
+    <h3>Diferencias entre elementos en bloque y elementos en línea</h3>
+
+    <h4>Formato</h4>
+
+    <p>
+        De forma predeterminada, los elementos en bloque comienzan en una nueva línea, pero los elementos en línea pueden comenzar en cualquier parte de una línea.
+    </p>
+
+    <h4>Modelo de contenido</h4>
+
+    <p>
+        En general, los elementos en bloque pueden contener elementos en línea y otros elementos en bloque. Inherente a esta distinción estructural es la idea de que los elementos en bloque crean estructuras "más grandes" que los elementos en línea.
+    </p>
+
+    <a href="https://developer.mozilla.org/es/docs/Web/HTML/Block-level_elements" target="_blank">Ver listado de elementos en bloque</a>
+
+    <h3>En línea</h3>
+
+    <span>Un elemento en línea ocupa sólo el espacio delimitado por las etiquetas que definen el elemento en línea.</span>
+
+    <span>- Este es otro <b>"<u>span</u>"</b></span>
+
+    <h4>Formato</h4>
+
+    <p>
+        De forma predeterminada, los elementos en línea <b>no</b> comienzan en una nueva línea.
+    </p>
+
+    <h4>Modelo de contenido</h4>
+
+    <p>
+        En general, los elementos en línea pueden contener únicamente datos y otros elementos en línea.
+    </p>
+
+    <a href="https://developer.mozilla.org/es/docs/orphaned/Web/HTML/Inline_elements" target="_blank" rel="noopener noreferrer">Ver listado de elementos en línea</a>
+
+    <hr>
+    <h2>Etiquetas Semánticas de Estructura</h2>
+
+    <div><b>div:</b> Es una etiqueta contenedora que no tiene semántica</div>
+    
+    <!-- <div>Este es otro div</div> -->
+
+    <header><b>header:</b> Cabecera de un sitio web o de una sección</header>
+    <nav><b>nav:</b> Representa una navegación</nav>
+    <main><b>main:</b> Define la sección principal del documento</main> <!-- Sólo debería puede existir uno por documento -->
+    <footer><b>footer:</b> Pié de página de un sitio web o de una sección</footer>
+    <article><b>article:</b> Representa contenido complementario o secundario</article>
+    <aside><b>aside:</b> Representa una sección de contenido genérico</aside>
+    <address><b>address:</b> Representa información de contacto</address>
+
+    <br>
+    <a href="https://www.freecodecamp.org/espanol/news/elementos-semanticos-html5-explicados/" target="_blank">Ver listado de elementos semánticos</a>
+
+    <br>
+    <hr>
+    <h2>Etiquetas de enlace</h2>
+
+    <a href="https://www.google.com/" target="_self">Ir a google en esta ventana</a>
+    <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">Ir a google en otra ventana</a>
+    <br><br>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#section1">Sección 1</a>
+            </li>
+            <li>
+                <a href="#section2">Sección 2</a>
+            </li>
+            <li>
+                <a href="#section3">Sección 3</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- <nav>
+        <ul>
+            <li>
+                <a href="about.html">Nosotros</a>
+            </li>
+            <li>
+                <a href="contact.html">Contacto</a>
+            </li>
+        </ul>
+    </nav> -->
+
+    <nav>
+        <ul>
+            <li>
+                <a href="assets/sources/about.html">Nosotros</a>
+            </li>
+            <li>
+                <a href="assets/sources/contact.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <nav>
+        <ul>
+            <li><a href="mailto:alelozada.dev@gmail.com">Mi correo</a></li>
+            <li><a href="tel:521234567890">Mi número</a></li>
+
+            <li><a href="https://wa.me/1234567890">Enviar WhatsApp</a></li>
+
+            <li><a href="https://api.whatsapp.com/send?phone=1234567890&text=Hola%20soy%20Alex">Enviar WhatsApp con mensaje incluido</a></li>
+
+            <a aria-label="Chat on WhatsApp" href="https://api.whatsapp.com/send?phone=1234567890&text=Hola%20soy%20Alex"><img alt="Chat on WhatsApp" src="assets/img/WhatsAppButtonGreenSmall.png" /><a/>
+        </ul>
+
+    </nav>
+
+    <section id="section1">
+        <h2>Sección 1</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aspernatur suscipit expedita, itaque est porro natus numquam voluptate similique sunt quibusdam quam consectetur nulla vitae modi ex! Eligendi, ipsa asperiores.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse incidunt odio fugiat reprehenderit explicabo! Minima culpa sint numquam autem, neque beatae incidunt voluptates ullam enim, ipsum quasi corrupti est?
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis cumque animi deleniti quaerat sequi! Facere dignissimos commodi quae officia facilis? Non doloremque id pariatur enim ullam iusto architecto iure error?</p>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti repellendus cupiditate quas facere aliquid libero recusandae voluptate reprehenderit. Tempore odit nulla tempora quas aperiam consequuntur ut rem atque blanditiis fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, amet molestiae doloremque quidem odio debitis incidunt blanditiis tempora enim reiciendis repudiandae nam nemo error nesciunt distinctio nisi velit, aut maiores.</p>
+    </section>
+
+    <section id="section2">
+        <h2>Sección 2</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aspernatur suscipit expedita, itaque est porro natus numquam voluptate similique sunt quibusdam quam consectetur nulla vitae modi ex! Eligendi, ipsa asperiores.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse incidunt odio fugiat reprehenderit explicabo! Minima culpa sint numquam autem, neque beatae incidunt voluptates ullam enim, ipsum quasi corrupti est?
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis cumque animi deleniti quaerat sequi! Facere dignissimos commodi quae officia facilis? Non doloremque id pariatur enim ullam iusto architecto iure error?</p>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti repellendus cupiditate quas facere aliquid libero recusandae voluptate reprehenderit. Tempore odit nulla tempora quas aperiam consequuntur ut rem atque blanditiis fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, amet molestiae doloremque quidem odio debitis incidunt blanditiis tempora enim reiciendis repudiandae nam nemo error nesciunt distinctio nisi velit, aut maiores.</p>
+    </section>
+
+    <section id="section3">
+        <h2>Sección 3</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aspernatur suscipit expedita, itaque est porro natus numquam voluptate similique sunt quibusdam quam consectetur nulla vitae modi ex! Eligendi, ipsa asperiores.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse incidunt odio fugiat reprehenderit explicabo! Minima culpa sint numquam autem, neque beatae incidunt voluptates ullam enim, ipsum quasi corrupti est?
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis cumque animi deleniti quaerat sequi! Facere dignissimos commodi quae officia facilis? Non doloremque id pariatur enim ullam iusto architecto iure error?
+        </p>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti repellendus cupiditate quas facere aliquid libero recusandae voluptate reprehenderit. Tempore odit nulla tempora quas aperiam consequuntur ut rem atque blanditiis fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, amet molestiae doloremque quidem odio debitis incidunt blanditiis tempora enim reiciendis repudiandae nam nemo error nesciunt distinctio nisi velit, aut maiores.</p>
+    </section>
+
+    <br>
+    <hr>
+    <h2>Listas</h2>
+
+    <h3>Listas ordenadas</h3>
+
+    <ol>
+        <li>Uva 🍇</li>
+        <li>Manzana 🍎</li>
+        <li>Pera 🍐</li>
+        <li>Naranja 🍊</li>
+        <li>Kiwi 🥝</li>
+    </ol>
+
+    <ol start="17">
+        <li>Uva 🍇</li>
+        <li>Manzana 🍎</li>
+        <li>Pera 🍐</li>
+        <li>Naranja 🍊</li>
+        <li>Kiwi 🥝</li>
+    </ol>
+
+    <ol reversed>
+        <li>Uva 🍇</li>
+        <li>Manzana 🍎</li>
+        <li>Pera 🍐</li>
+        <li>Naranja 🍊</li>
+        <li>Kiwi 🥝</li>
+    </ol>
+
+    <ol reversed start="17">
+        <li>Uva 🍇</li>
+        <li>Manzana 🍎</li>
+        <li>Pera 🍐</li>
+        <li>Naranja 🍊</li>
+        <li>Kiwi 🥝</li>
+    </ol>
+
+    <h3>Listas desordenadas</h3>
+
+    <ul type="disc">
+        <li>Uva 🍇</li>
+        <li>Manzana 🍎</li>
+        <li>Pera 🍐</li>
+        <li>Naranja 🍊</li>
+        <li>Kiwi 🥝</li>
+    </ul>
+
+    <ul type="square">
+        <li>Uva 🍇</li>
+        <li>Manzana 🍎</li>
+        <li>Pera 🍐</li>
+        <li>Naranja 🍊</li>
+        <li>Kiwi 🥝</li>
+    </ul>
+
+    <ul type="circle">
+        <li>Uva 🍇</li>
+        <li>Manzana 🍎</li>
+        <li>Pera 🍐</li>
+        <li>Naranja 🍊</li>
+        <li>Kiwi 🥝</li>
+    </ul>
+
+    <hr>
+    <h2>Tablas</h2>
+
+    <table border="1">
+        <tr>
+            <td>Nombre</td>
+            <td>Edad</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>David</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>Jorge</td>
+            <td>30</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Jorge</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Usuarios</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+    <hr>
+    <h2>Etiqueta para imagen</h2>
+
+    <img src="assets/img/imagen.jpg" alt="Imagen Curso" width="200px" height="">
+
+    <img src="https://www.uaq.mx/informatica/img/big-nosotros.jpg" alt="Facultad de Informática" width="200px" height="">
+
+    <!-- 
+    <img src="" alt="" srcset="">
+    <img src="" alt="" sizes="" srcset="">
+    <img src="" alt="" sizes="" srcset="">
+    -->
+
+    <br>
+    <hr>
+    <h2>Audio & Vídeo</h2>
+
+    <audio src="assets/audio/audio.mp3" controls></audio>
+
+    <video src="assets/video/video.mp4" controls width="340px" poster="assets/img/cover.jpeg"></video>
+
+    <br>
+    <hr>
+    <h2>Iframes</h2>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59750.56251572722!2d-100.45141676506924!3d20.612132069172812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35b8fdc5b9255%3A0x97b094aa561b832f!2sSantiago%20de%20Quer%C3%A9taro%2C%20Qro.!5e0!3m2!1ses-419!2smx!4v1694278323669!5m2!1ses-419!2smx" width="340" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <iframe width="340" height="225" src="https://www.youtube.com/embed/V1dtt9ufYfM?si=Hpn8KGbF_FUWXTD2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <iframe src="assets/sources/about.html" frameborder="1"></iframe>
+
+    <br>
+    <hr>
+    <h2>Formularios</h2>
+
+    <form action="">
+        <p>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre">
+        </p>
+        <p>
+            <label for="descripcion">Descripcion</label>
+            <textarea name="descripcion" id="" cols="35" rows="5"></textarea>
+        </p>
+
+        <input type="radio" name="genero" value="femenino" id=""> <span>Femenino</span>
+        <input type="radio" name="genero" value="masculino" id=""> <span>Masculino</span>
+        <input type="radio" name="genero" value="otro" id=""> <span>Otro</span>
+
+        <br><br>
+        <select name="genero" id="">
+            <option value="femenino">Femenino</option>
+            <option value="masculino">Masculino</option>
+            <option value="otro">Otro</option>
+        </select>
+
+        <br><br>
+        <input type="button" value="Boton">
+
+        <br><br>
+        <h4>Mascotas que tienes</h4>
+        <input type="checkbox" name="perro" id=""> Perro
+        <input type="checkbox" name="gato" id=""> Gato
+        <input type="checkbox" name="otro" id=""> Otro
+
+        <br><br>
+        <input type="date" name="" id="">
+        <input type="month" name="" id="">
+        <input type="time" name="" id="">
+
+        <br><br>
+        <input type="color" name="" id="">
+        <input type="range" name="" id="">
+
+        <br><br>
+        <input type="tel" name="" id="">
+        <input type="email" name="" id="">
+
+        <br><br>
+        <input type="file" name="" id="">
+        <input type="image" src="" alt="">
+
+        <br><br>
+        <input type="submit" value="Enviar formulario">
+
+    </form>
+
+    <br>
+    <hr>
+    <h2>Botones</h2>
+    <button onclick="alert('Hola desde el boton')" type="submit">Saludar</button>
+
+    <br>
+    <hr>
+
+    <!-- <script>
+        alert('Hola desde la etiqueta script')
+    </script>
+
+    <script src="assets/js/main.js"></script> -->
+    
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>

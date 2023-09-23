@@ -1,0 +1,1 @@
+alert('Hola desde el archivo main.js')
